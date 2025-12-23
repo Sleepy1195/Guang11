@@ -2,8 +2,8 @@ import { connect } from 'cloudflare:sockets'
 
 // configurations
 const SETTINGS = {
-    ['UUID']: 'dc5d4eb8-ccea-45ac-ab5f-5db1dfda021c', // vless UUID
-    ['PROXY']: '62.3.12.185', // (optional) reverse proxies for Cloudflare websites. e.g. 'a.com, b.com, ...'
+    ['UUID']: '', // vless UUID
+    ['PROXY']: '', // (optional) reverse proxies for Cloudflare websites. e.g. 'a.com, b.com, ...'
     ['LOG_LEVEL']: 'none', // debug, info, error, none
     ['TIME_ZONE']: '0', // timestamp time zone of logs
 
@@ -937,3 +937,4 @@ export default {
     random_padding,
     validate_uuid,
 }
+
