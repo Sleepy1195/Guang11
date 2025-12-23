@@ -7,7 +7,7 @@ const SETTINGS = {
     ['LOG_LEVEL']: 'none', // debug, info, error, none
     ['TIME_ZONE']: '0', // timestamp time zone of logs
 
-    ['WS_PATH']: '/ws', // URL path for ws transport, e.g. '/ws', empty means disabled
+    ['WS_PATH']: '', // URL path for ws transport, e.g. '/ws', empty means disabled
 
     ['DOH_QUERY_PATH']: '', // URL path for DNS over HTTP(S), e.g. '/doh-query', empty means disabled
     ['UPSTREAM_DOH']: 'https://dns.google/dns-query', // upstream DNS over HTTP(S) server
@@ -937,4 +937,5 @@ export default {
     random_padding,
     validate_uuid,
 }
+
 
